@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style_guide.css">
+
+  <title>Latitude</title>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <a class="navbar-brand" href="landing.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="temp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="clouds.html">Cloudiness</a>
+            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="comparisons.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+
+        </ul>
+      </div>
+    </nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-7 col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">Wind Speed</h1>
+          <hr>
+          <img class="card-img-top" src="images/WindSpeed.png" alt="Wind Speed">
+          <p class="card-text">When looking at the data shows that most cities fall into the 0 to 10 mph range, with the rest (minus outliers) falling within the 10 to 20 mph range.
+            When looking further into wind speeds the NOAA uses a scale called the Beaufort Wind Estimation Scale, which gives descriptions for the different wind speeds based on mph.
+            With this scale most cities are experiencing little to no air movement to a gentle breeze, with the rest experiencing a moderate breeze. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-5 col-md-12">
+      <div class="card">
+        <div class="card-body">
+          <h2 class="card-title"> Visualizations </h2>
+          <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col-3 col-lg-6">
+                  <img class="card-img" src="images/MaxTemp.png" alt="Max Temp">
+                </div>
+                <div class="ccol-3 col-lg-6">
+                  <img class="card-img" src="images/Humidity.png" alt="Humidity">
+                </div>
+                <div class="col-3 col-lg-6">
+                  <img class="card-img" src="images/Clouds.png" alt="Clouds">
+                </div>
+                <div class="col-3 col-lg-6">
+                  <img class="card-img border border-info" src="images/WindSpeed.png" alt="Wind Speed">
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+<footer>
+  <div class="footer">Footer</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

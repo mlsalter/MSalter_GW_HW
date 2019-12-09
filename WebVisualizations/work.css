@@ -1,0 +1,97 @@
+.navbar {
+  background-color: #FFFFFF;
+}
+
+.navbar .navbar-brand {
+  color: white;
+  background-color: #20B2AA;
+  font-weight: bold;
+  padding:inherit;
+}
+.navbar .navbar-brand:hover {
+  color: #FFFFFF;
+}
+
+.dropdown:hover {
+  background-color: #F2F2F2;
+}
+
+ul {
+  background-color: #FFFFFF;
+}
+
+body {
+  margin-bottom: 50px;
+  background-color: lightgray;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+.card{
+  margin-bottom:20px;
+}
+
+h1 {
+  text-align: left;
+  font-family: serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: #20B2AA;
+  margin-bottom: 60px;
+}
+
+h2 {
+  text-align: left;
+  font-family: serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: #20B2AA;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: left;
+  font-family: Arial, Helvetica,sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #696969;
+}
+
+img {
+  padding:10px;
+}
+
+.footer {
+  position:fixed;
+  left: 0;
+  bottom:0;
+  width: 100%;
+  background-color: #696969;
+  color: #FFFFFF;
+  text-align:center;
+  padding:10px;
+  border-top-style: solid;
+  border-top-width: 10px;
+  border-top-color: #20B2AA;
+}
+
+
+@media (max-width: 768px) {
+
+.navbar-expand-md{
+background-color: #20B2AA !important;
+}
+.navbar{
+    max-height: none;
+    padding: inherit;
+}
+.navbar div{
+    margin: inherit;
+    background-color: grey;
+}
+.navbar-brand{
+    padding: 10px !important;
+}
+}
